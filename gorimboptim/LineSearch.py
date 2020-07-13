@@ -78,7 +78,7 @@ class DichotomousLineSearch(Optimizer):
         return condition1 and condition2
 
 
-    def optimize(self, starting_point):
+    def optimize(self):
         """Iterate the optimization algorithm until stopping conditions - and, 
         hopefully, the optimum - are reached."""
         self.iteration_counter = 0
