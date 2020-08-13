@@ -99,14 +99,15 @@ class TestDichotomousLineSearch:
         assert pass_condition , f"Optimization failed for\
          exp_func in {interval}."
          
+    ## Test function template
     # def test_optim_(self):
         # def _func(x):
             # return 
 
-        # interval = []
+        # interval = [**Optimization interval**]
         # ftol = 1e-8
         # max_iters = 1e2
-        # optimizer_obj = DichotomousLineSearch(quadratic_func, interval, ftol,
+        # optimizer_obj = DichotomousLineSearch( **test function** , interval, ftol,
                                                 # max_iters)
         # x_opt = optimizer_obj.optimize()
         # x_target = 0
