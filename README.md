@@ -1,6 +1,11 @@
 # mlnd-pkg
 Small distribution building and PyPi packaging experiment
 
+## Installation
+Using pip
+
+`pip install mlnd-pkg-test`
+
 ## Usage
 gorimboptim module implements DichotomousLineSearch class, a line search optimizer using the Dichotomous Search algorithm.
 
